@@ -15,6 +15,10 @@ async function moduleProject4() {
   ]
 
   // 👉 Tasks 1 - 5 go here
+  document.querySelector('#weatherWidget').style.display = 'none'
+
+  
+
 
   // 👆 WORK WORK ABOVE THIS LINE 👆
 

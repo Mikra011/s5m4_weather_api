@@ -29,7 +29,7 @@ async function moduleProject4() {
       const res = await axios.get(url)
 
       document.querySelector('#weatherWidget').style.display = 'block'
-      document.querySelector('.info').textContent = ' '
+      document.querySelector('.info').textContent = ''
       evt.target.removeAttribute('disabled')
 
       let { data } = res
